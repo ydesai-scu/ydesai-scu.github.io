@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Yugandhar Desai
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yugandhar Desai
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yugandhar
+last_name: Desai
 
 # Status emoji
 status:
@@ -20,51 +20,34 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Ninedot Energy
+    url: https://ninedotenergy.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:yugandhar.d.desai@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://linkedin.com/in/yugandhardesai
+  - icon: brands/github
+    url: https://github.com/yddesai
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Engineering
+  - Cloud Computing
+  - Software Development
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MS in Computer Science
+    institution: Santa Clara University
+    date_start: 2023-09-01
+    date_end: 2025-06-30
     summary: |
       GPA: 3.8/4.0
 
@@ -72,40 +55,41 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BTech in Computer Science & Engineering
+    institution: NIIT University
+    date_start: 2017-08-01
+    date_end: 2021-08-31
     summary: |
-      GPA: 3.4/4.0
-      
+      GPA: 3.6/4.0
+
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Data Engineer Intern
+    company_name: Ninedot Energy
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2024-06-01
+    date_end: 2024-08-31
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Automated and migrated rent payment calculations from Google Sheets to BigQuery leveraging dbt for data transformation.
+      - Web scraped 3,000+ documents for training of private LLM Chatbot assistant.
+      - Developed Google Cloud Functions to fetch and process API data and energy metrics from external APIs.
+  - position: Cloud Engineer
+    company_name: NTT Data
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
+    date_start: 2021-08-01
+    date_end: 2023-04-30
+    summary: |2-
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Implemented Job Scheduling framework using Python & Matillion workflows, resulting in 40% reduction in overall processing time.
+      - Developed CDC ( Change Data Capture) framework in Snowflake and Matillion, leading to improved data quality and significant cost savings.
+      - Migrated legacy Microsoft SQL Server database with 10 TB+ of data to Snowflake, a cloud data warehouse, including all stored procedures, triggers, and ETLs, resulting in a 30% reduction in infrastructure costs.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -116,71 +100,60 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        percent: 70
         icon: circle-stack
-  - name: Hobbies
+      - name: Cloud Computing
+        description: ''
+        percent: 90
+        icon: cloud
+  - name: Development Tools
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: VSCode
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: code
+      - name: Git
+        description: ''
+        percent: 90
+        icon: github
+      - name: Postman
         description: ''
         percent: 80
-        icon: camera
+        icon: postman
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: Hindi
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Marathi
+    percent: 50
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+# Projects
+projects:
+  - name: Literature Research Web Application
+    description: Built a Python-based full-stack web app for academic literature research using Flask and various web technologies.
+    url: 'https://example.com'
+  - name: AI Based System Design Builder
+    description: Built AI-powered platform for generating and visualizing system architectures with NVIDIA AI Workbench.
+    url: 'https://example.com'
+  - name: Google Landmark Recognition
+    description: Developed a Flask-based application using the DELG model for accurate landmark image recognition and retrieval.
+    url: 'https://example.com'
+
+# Publication
+publications:
+  - title: Studying Multifaceted Collaboration of OSS developers and its impact on their bug fixing performance
+    url: https://example.com
+    date: '2023-01-01'
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Developers fix bugs through discussions, creating Developer Social Networks (DSN). We extended DSN to Multi-layer DSN (MDSN), achieving a Pearson correlation coefficient of up to 0.74. This MDSN helps identify crucial developers in systems like Eclipse and Netbeans.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Yugandhar Desai is a Data Engineer with a passion for cloud computing and software development. He has a strong background in computer science and engineering, with a focus on data engineering and cloud computing. He has worked on various projects, including a literature research web application, an AI-based system design builder, and a Google landmark recognition application. He is also a published author, with a paper on the collaboration of OSS developers and its impact on their bug fixing performance.
